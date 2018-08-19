@@ -29,7 +29,7 @@
         <repository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>http://nexus-jenkins-test.apps.as.lab/repository/maven-snapshots/</url>
         </repository>
     </repositories>
 
