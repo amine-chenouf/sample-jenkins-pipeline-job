@@ -287,9 +287,9 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>nexus-release-repository</id>
-            <name>release-repository</name>
-            <url>${REPOSITORY_URL}</url>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://nexus-nexussss.apps.as.lab/content/repositories/releases/</url>
         </repository>
     </distributionManagement>
     <profiles>
