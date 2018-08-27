@@ -25,13 +25,14 @@
         <maven.site.deploy.skip>true</maven.site.deploy.skip>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-        </repository>
-    </repositories>
+
+        <repositories>
+    <repository>
+      <id>12345</id>
+      <url>http://nexus-nexussss.apps.as.lab/content/repositories/releases/</url>
+    </repository>
+  </repositories>
+
 
     <dependencyManagement>
         <dependencies>
@@ -285,13 +286,12 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Releases</name>
-            <url>http://nexus-nexussss.apps.as.lab/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
+   <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://nexus-nexussss.apps.as.lab/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
     <profiles>
         <profile>
             <id>dev</id>
